@@ -19,7 +19,12 @@
 .header__links-list-item {
   margin-bottom: -1px;
   border-bottom: 1px #000 solid;
-  font-size: 0.9em;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .header__links-list-item_no-bullit {
@@ -30,12 +35,10 @@
 
 .header__logo {
   grid-column: span 1;
-  /* margin: ; */
-  
 }
 
 .header__logo-image {
-  max-width: 148px;
+  width: 148px;
   height: 100%;
 }
 
@@ -51,7 +54,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  font-size: 0.9em;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
   font-style: normal;
   line-height: 135%;
 }
@@ -82,16 +88,18 @@
   flex-direction: column;
   gap: 20px;
   padding: 165px 50px 0;
-  color: #FFF;
-  font-weight: 700;
-  font-size: 5em;
-  line-height: 115%; /* 115px */
-  letter-spacing: 30px;
-  text-transform: uppercase;
 }
 
 .aligned-text {
   display: flex;
+  color: #FFF;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 6.25rem;
+  font-style: normal;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text_center {
@@ -126,10 +134,14 @@
 .cover__description-text {
   grid-column: span 1;
   color: #FFF;
-  font-size: 1.1em;
-  line-height: 28px; /* 127.2 margin-left: auto;73% */
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: 127.273%;
+  text-align: center;
   text-transform: uppercase;
-  word-spacing: 17px;
+  word-spacing: 1.1rem;
 }
 
 .bet-button{
@@ -137,7 +149,11 @@
   border: 1px solid #FFF;
   padding: 12px 32px;
   color: #FFF;
-  font-size: 1.1em;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: normal;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
@@ -149,8 +165,12 @@
 
 .lots__heading {
   margin: 0 40px 27px;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5rem;
+  font-style: normal;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -175,7 +195,7 @@
 
 .card {
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .card .overlay {
@@ -187,8 +207,10 @@
 .card__title {
   padding: 50px 40px 30px;
   color: #FFF;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.375rem;
+  font-style: normal;
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -200,6 +222,10 @@
   align-items: end;
   margin: auto 40px 50px;
   color: #FFF;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-style: normal;
   line-height: 120%;
 }
 
@@ -219,6 +245,12 @@
   display: inline-block;
   margin: 30px 40px 2px;
   border-bottom: 1px #000 solid;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: normal;
   text-decoration: none;
 }
 
@@ -250,13 +282,16 @@
 .about__logo-image {
   max-width: 148px;
   height: 100%;
-  
 }
 
 .about__title {
   margin: 281px 0 100px;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5rem;
+  font-style: normal;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -264,6 +299,12 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .footer {
@@ -283,10 +324,19 @@
   list-style: none;
 }
 
+.footer__menu-list-item{
+  color: #000;
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;  
+}
+
 .footer__menu-link {
   display: block;
   border-bottom: 1px #000 solid;
-  font-size: 0.9em;
   text-decoration: none;
 }
 
